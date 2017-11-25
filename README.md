@@ -18,9 +18,9 @@ html {
     box-sizing: inherit;   
 } 
 ```
-##### ***这样在插件或杠杆其他行为的其他组件中就能更容易地改变box-sizing了。
+##### *这样在插件或杠杆其他行为的其他组件中就能更容易地改变box-sizing了。
 ## ***使用Flexbox摆脱外边距的各种hack
-##### ***当需要用到列分隔符时，通过flexbox的 space-between 属性，你就可以摆脱nth-，first-，和 last-child 的hack了：
+##### *当需要用到列分隔符时，通过flexbox的 space-between 属性，你就可以摆脱nth-，first-，和 last-child 的hack了：
 ```css
 .list { 
   display: flex; 
