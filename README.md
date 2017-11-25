@@ -1,3 +1,4 @@
+
 # CSS-skill
 ## 1.使用CSS reset
 #####   像normalize.css这样的CSS重置库非常受欢迎，它为您的站点样式提供了一个清爽的选择，能确保浏览器之间更好的一致性。而实际上并不是每个项目都需要这些库中包含的所有规则，我们可以通过一些简单的css规则就能规避浏览器之间的差异。请看下面的盒模型代码：
@@ -116,11 +117,10 @@ img:after {
 ```
 ## 10.在表单元素上设置font-size
 ##### 为了避免移动浏览器（iOS Safari等）在点击<select>下拉菜单时放大HTML表单元素，请将font-size添加到输入样式中：
-```css
-input[type="text"],   
-input[type="number"],   
-select,   
-textarea {     
-    font-size: 16px;   
-} 
-```
+    
+	input[type="text"],   
+	input[type="number"],   
+	select, textarea {     
+			font-size: 16px;   
+	} 
+
